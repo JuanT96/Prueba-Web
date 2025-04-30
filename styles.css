@@ -13,18 +13,22 @@ text-align: center;
 font-size: 40px;
 background-color: #87CEEB;
 }
+#container{
+	display: flex;
+	flex-wrap: wrap;
+}
 .cont1{
 	background: #b92b27;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-	width: 45%;
+	width: 40%;
 	margin:32px 32px 32px 32px ;
 	padding: 32px 16px 32px 16px;
 	border-radius: 16px;
 	display: flex;
 	flex-direction: row-reverse;
 	align-items: center;
+
 }
 img{
 	border-radius: 20px;
